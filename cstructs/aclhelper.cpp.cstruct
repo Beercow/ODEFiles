@@ -1,6 +1,6 @@
 Description: ACL Helper
 Author: Brian Maloney
-Version: 1.0
+Version: 1.1
 Id: 12067939-5b5a-4ea1-aa66-99d34e4a8af3
 Code_File: aclhelper.cpp
 
@@ -8,7 +8,7 @@ Functions:
     -
         Function: WindowsAclHelper::GetACL
         Description: ''
-        Flags: [934, 959]
+        Flags: [934, 947, 959]
         Structure: |
             #define %s_des "%s"
             struct %s {
