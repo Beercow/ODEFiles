@@ -1,6 +1,6 @@
 Description: Create File
 Author: Brian Maloney
-Version: 1.1
+Version: 1.2
 Id: cdf1d630-d8c0-4b9b-b6b8-20f079ae8e17
 Code_File: CreateFile.cpp
 
@@ -8,7 +8,7 @@ Functions:
     -
         Function: CreateNewFile::LogInfo
         Description: New file created
-        Flags: [479]
+        Flags: [479, 535]
         Structure: |
             #define %s_des "%s"
             struct %s {
@@ -48,7 +48,7 @@ Functions:
     -
         Function: CreateNewFile::AddFileToDriveWithStatus
         Description: New file created status
-        Flags: [2729, 2727]
+        Flags: [2729, 2727, 2802]
         Structure: |
             #define %s_des "%s"
             struct %s {
@@ -70,7 +70,7 @@ Functions:
     -
         Function: CreateNewFile::HandleLocalCreateFileWeAdded
         Description: New file created locally
-        Flags: [158, 1496, 1615, 1656, 1658]
+        Flags: [158, 1496, 1615, 1656, 1658, 1716]
         Structure: |    
             #define %s_des "%s"
             struct %s {

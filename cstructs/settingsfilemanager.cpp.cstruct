@@ -1,6 +1,6 @@
 Description: Settings File Manager
 Author: Brian Maloney
-Version: 1.0
+Version: 1.1
 Id: 9527dcd6-f418-4dfc-b059-40569536bc0e
 Code_File: SettingsFileManager.cpp
 
@@ -8,7 +8,7 @@ Functions:
     -
         Function: SettingsFileManager::LoadGlobalSettings
         Description: User CID
-        Flags: [788, 794]
+        Flags: [788, 794, 835]
         Structure: |
             #define %s_des "%s"
             struct %s {

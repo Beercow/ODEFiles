@@ -1,6 +1,6 @@
 Description: Winbox Filter Communications Port
 Author: Brian Maloney
-Version: 2.0
+Version: 2.1
 Id: 919b2c62-3c7a-4d27-b2b5-84918b7cc974
 Code_File: WinboxFilterCommunicationsPort.cpp
 
@@ -8,7 +8,7 @@ Functions:
     -
         Function: WinboxFilterCommunicationsPort::OnRenameCompletion
         Description: File Rename
-        Flags: [1061, 1084, 1118]
+        Flags: [1061, 1084, 1118, 1133]
         Structure: |
             #define %s_des "%s"
             struct %s {
@@ -26,7 +26,7 @@ Functions:
     -
         Function: WinboxFilterCommunicationsPort::OnDeleteCompletion
         Description: File Delete
-        Flags: [1092]
+        Flags: [1092, 1107]
         Structure: |
             #define %s_des "%s"
             struct %s {
